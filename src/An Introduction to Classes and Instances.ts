@@ -9,7 +9,11 @@ class Circle{
     getArea() : number{
         return ((this.raduis ** 2) * Math.PI)
     }
+    getCircumference() : number{
+        return (this.raduis * 2 * Math.PI)
+    }
 }
 
 const C = new Circle(3.254)
 console.log(C.getArea())
+console.log(C.getCircumference())
